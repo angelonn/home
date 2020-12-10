@@ -2,6 +2,9 @@
 
 int main(void)
 {
-    printf("Hello \n");
+    char n[5];
+    printf("input : ");
+    scanf("%s", n);
+    printf("%s", n);
     return 0;
 }
